@@ -72,7 +72,7 @@ function render_welcome() {
     clearContent();
     setContentTitle('Welcome to TooDoo!');
     let welcomeDiv = document.createElement('div');
-    welcomeDiv.textContent = "Welcome!";
+    welcomeDiv.textContent = "Welcome, please use the header buttons or optional drop down menu to navigate through this app!";
     elements.content.appendChild(welcomeDiv);
 }
 

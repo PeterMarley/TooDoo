@@ -7,8 +7,8 @@ import { ToDo } from './classes/ToDo.js';
 let loaded = {};
 
 (function initialise() {
-    clearStorage();
-    buildTestData();
+    //clearStorage();
+    //buildTestData();
     let todos = load('todo');
     let projects = load('project');
     setUIDs(todos, projects);
