@@ -678,11 +678,13 @@ select.section-input,
     .complete-field {
         width: 75px;
         font-size: 0.75em;
+        
     }
 }
 
 @media only screen and (max-width: 430px) {
-    .header-body .menu-button {
+    .header-body .menu-button,
+    .header-body .menu-expanding-button {
         display: none;
     }
 }
