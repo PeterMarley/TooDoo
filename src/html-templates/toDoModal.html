@@ -1,0 +1,65 @@
+<div class="modal-wrapper">
+    <form id="modal-form">
+
+        <div class="section">
+            <div class="section-label">Title</div>
+            <input class="section-input" type="text" placeholder="Enter title" id="title-field">
+        </div>
+
+        <div class="section">
+            <div class="section-label">Description</div>
+            <textarea class="section-input" cols="40" rows="5" placeholder="Enter description"
+                id="desc-field"></textarea>
+        </div>
+
+        <div class="section">
+            <div class="section-label">Notes</div>
+            <textarea class="section-input" cols="40" rows="5" placeholder="Enter notes"
+                id="notes-field"></textarea>
+        </div>
+
+        <div class="section two-cell">
+            <div class="section">
+                <div class="section-label">Due Date</div>
+                <input class="section-input" type="date" id="due-date-field">
+            </div>
+            <div class="section">
+                <div class="section-label">Priority</div>
+                <select class="section-input" id="priority-field">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="checklist-section">
+            <div class="section-label">Checklist - List</div>
+
+
+        </div>
+
+
+        <div class="checklist-section new-item">
+            <div class="section-label">Checklist - New</div>
+            <div class="checklist-new-item">
+                <div class="section">
+                    <select class="section-input complete-field" name="completed">
+                        <option value="true">Complete</option>
+                        <option value="false">Not Complete</option>
+                    </select>
+                    <div class="section-label">Complete?</div>
+                </div>
+                <div class="section">
+                    <input class="checklist-text" type="text" placeholder="maximum 255 characters">
+                    <div class="section-label">Checklist item text</div>
+                </div>
+                <button type="button" id="add-todo-button" class="content-button">Add</button>
+            </div>
+        </div>
+        <button type="button" id="save-button" class="content-button">Save</button>
+        <button type="button" id="delete-button" class="content-button">Delete</button>
+    </form>
+</div>

@@ -1,0 +1,10 @@
+{
+    "projects": {
+        "1": "stringified project 1",
+        "2": "stringified project 2"
+    },
+    "todos": {
+        "1": "stringified todo 1",
+        "2": "stringigied todo 2"
+    }
+}
